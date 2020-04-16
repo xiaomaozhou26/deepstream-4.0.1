@@ -1,3 +1,18 @@
+
+For your own case, you can change the parameters in the 
+Then build 
+
+for example:
+  static const int NUM_CLASSES_YOLO = 1;
+
+  const uint kNUM_BBOXES = 3;
+  static const float kNMS_THRESH = 0.2f;
+  static const float kPROB_THRESH = 0.12f;
+  
+################################################################################
+
+Following is the readme file from deepstream github
+
 ################################################################################
 # Copyright (c) 2019, NVIDIA CORPORATION.  All rights reserved.
 #
